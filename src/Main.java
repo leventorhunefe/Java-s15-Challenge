@@ -14,6 +14,7 @@ public class Main {
         defaultStudent.setMemberAddress("123 Main St, Anytown, USA");
         System.out.println(defaultStudent);
         defaultStudent.printMemberDetails();
+        defaultStudent.returnBookMessage();
 
         // Kullanıcı tarafından sağlanan telefon numarası ile öğrenci kaydı oluşturma
         PhoneNumber customPhoneNumber = new PhoneNumber("+44-20-7946-0958");
@@ -21,5 +22,6 @@ public class Main {
                 "Jane Smith", "456 Elm St, Othertown, UK", customPhoneNumber);
         System.out.println(customStudent);
         customStudent.printMemberDetails();
+        customStudent.returnBookMessage();
     }
     }
